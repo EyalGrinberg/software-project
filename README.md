@@ -16,7 +16,6 @@ The program (both on C and python) gets the following arguments:
 k - number of clusters (If k = 0, will run the eigengap heuristics algorithm to find it)
 
 goal - one of the following:
-
 spk - run full spectral clustering
 wam - calculate the weighted adjacency matrix and print it
 ddg - calculate the diagonal degree matrix and print it
