@@ -6,8 +6,8 @@ The code performs a spectral k-means clustering algorithm to a list of coordinat
 
 In order to compile and run the code, run the following commands after cloning the repository:
 
-gcc -ansi -Wall -Wextra -Werror -pedantic-errors spkmeans.c -lm -o spkmeans
-python setup.py build_ext --inplace
+`gcc -ansi -Wall -Wextra -Werror -pedantic-errors spkmeans.c -lm -o spkmeans
+python setup.py build_ext --inplace`
 
 If you want to run the code, create a txt/csv file with points in equal amount of coordinates in each line, separated by commas only, and run the following: 
 
@@ -24,4 +24,4 @@ jacobi - in this case, the file should be a matrix to calculate its eigenvalues 
   
 file_name - the file where the data is in
 
-Running on Python, use spkmeans.py, and running on C, use ./spkmeans
+Running on Python, use `spkmeans.py`, and running on C, use `./spkmeans`
