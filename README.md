@@ -12,12 +12,14 @@ If you want to run the code, create a txt/csv file with points in equal amount o
 The program (both on C and python) gets the following arguments:
 
 k - number of clusters (If k = 0, will run the eigengap heuristics algorithm to find it)
+
 goal - one of the following:
   spk - run full spectral clustering
   wam - calculate the weighted adjacency matrix and print it
   ddg - calculate the diagonal degree matrix and print it
   lnorm - calculate lnorm matrix and print it
   jacobi - in this case, the file should be a matrix to calculate its eigenvalues and eigenvectors using Jacobi's algorithm
+  
 file_name - the file where the data is in
 
 Running on Python, use spkmeans.py, and running on C, use ./spkmeans
