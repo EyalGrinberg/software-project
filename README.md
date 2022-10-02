@@ -2,7 +2,7 @@
 spectral k-means clustering
 This is a project from the course Software Project from my third year in Tel Aviv University. This code performs a spectral k-means clustering algorithm to a list of coordinates:
 
-image
+![image](https://user-images.githubusercontent.com/92382447/193449484-0e5e4386-8e0b-4dc0-a159-4858f53e4ba6.png)
 
 In order to compile and run the code, run the following commands after cloning the repository:
 
